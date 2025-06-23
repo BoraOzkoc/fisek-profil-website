@@ -6,8 +6,9 @@ const Footer = () => (
       <div className="mb-4 md:mb-0 max-w-xs">
         <span className="font-bold text-lg">Fişek Profil</span>
         <p className="text-sm mt-2 text-gray-300">
-          30 yılı aşkın tecrübesiyle İzmir ve çevresinde profil demir, çelik
-          profil ve demir ticareti alanında güvenilir çözüm ortağınız.
+          {
+            "30 yılı aşkın tecrübesiyle İzmir'de profil demir sektöründe güvenin ve kalitenin adresidir. Uzman kadromuzla her türlü profil demir ihtiyacınıza hızlı ve güvenilir çözümler sunuyoruz."
+          }
         </p>
       </div>
       <div className="flex flex-col md:flex-row md:space-x-8 items-center">

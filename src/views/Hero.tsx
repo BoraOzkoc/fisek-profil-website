@@ -2,16 +2,24 @@ import React from "react";
 import Image from "next/image";
 
 const Hero = () => (
-  <section className="relative h-[70vh] flex items-center justify-center bg-cover bg-center">
-    <div className="absolute inset-0 bg-black bg-opacity-40">
-      <Image src="/Borular.JPG" alt="Hero" fill className="object-cover" />
+  <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center bg-cover bg-center">
+    <div className="absolute inset-0 ">
+      <Image
+        src="/Hero.JPG"
+        alt="Hero"
+        fill
+        className="object-cover opacity-80"
+      />
+      <div className="absolute inset-0 bg-black opacity-50"></div>
     </div>
-    <div className="relative z-10 text-center text-white">
-      <h1 className="text-4xl md:text-5xl font-bold mb-4">Fişek Profil</h1>
-      <p className="mb-6 text-lg font-medium">
+    <div className="relative z-10 text-center text-black  p-6">
+      <h1 className="text-5xl md:text-6xl font-bold mb-8 text-white ">
+        Fişek Profil
+      </h1>
+      <p className="mb-2 text-lg font-medium text-white">
         30 Yılı Aşkın Tecrübe ile Profil Demirde Güvenin Adı
       </p>
-      <p className="mb-8 text-base">
+      <p className="mb-8 text-base text-white">
         Profil demir sektöründe yenilikçi ve güvenilir çözümler sunuyoruz.
       </p>
       <a

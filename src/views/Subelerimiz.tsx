@@ -39,7 +39,7 @@ const Subelerimiz = () => (
       {branches.map((branch, i) => (
         <div
           key={i}
-          className="font-bold hover:scale-110 transition-all duration-300 bg-white rounded-lg shadow p-6 flex flex-col items-center"
+          className="font-bold hover:scale-110 hover:cursor-pointer transition-all duration-300 bg-white rounded-lg shadow p-6 flex flex-col items-center"
         >
           <Image
             src={branch.image}

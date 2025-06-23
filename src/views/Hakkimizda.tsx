@@ -16,7 +16,7 @@ const Hakkimizda = () => (
         <div className="flex justify-center lg:justify-start items-center text-gray-700 w-full">
           <p className="text-center lg:text-left text-sm md:text-base lg:text-lg">
             {
-              "Fişek Profil, 30 yılı aşkın tecrübesiyle İzmir'de profil demir sektöründe güvenin ve kalitenin adresidir. Kurulduğumuz günden bu yana müşteri memnuniyetini ve yenilikçi çözümleri ön planda tutarak, sektörde öncü olmayı başardık. Çiğli, Narlıdere, Menemen ve Koyundere'de bulunan şubelerimizle İzmir'in her noktasına hizmet veriyoruz. Uzman kadromuz ve geniş ürün yelpazemizle, her türlü profil demir ihtiyacınıza hızlı ve güvenilir çözümler sunuyoruz."
+              "Fişek Profil, 30 yılı aşkın tecrübesiyle İzmir'de profil demir sektöründe güvenin ve kalitenin adresidir. Kurulduğumuz günden bu yana müşteri memnuniyetini ve yenilikçi çözümleri ön planda tutarak, sektörde öncü olmayı hedefledik. Çiğli, Narlıdere, Menemen ve Koyundere'de bulunan şubelerimizle İzmir'in her noktasına hizmet veriyoruz. Uzman kadromuz ve geniş ürün yelpazemizle, her türlü profil demir ihtiyacınıza hızlı ve güvenilir çözümler sunuyoruz."
             }
           </p>
         </div>

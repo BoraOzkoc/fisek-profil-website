@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => (
   <footer className="bg-gray-900 text-white py-8 mt-12">
-    <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center px-4">
+    <div className="max-w-5xl mx-auto flex flex-row justify-between items-center px-4">
       <div className="mb-4 md:mb-0 max-w-xs">
         <span className="font-bold text-lg">Fişek Profil</span>
         <p className="text-sm mt-2 text-gray-300">

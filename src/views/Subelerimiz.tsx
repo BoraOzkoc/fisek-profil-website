@@ -35,12 +35,14 @@ const Subelerimiz = () => (
       Şubelerimiz
     </h2>
 
-    <div className="max-w-5xl text-black mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="text-black mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
       {branches.map((branch, i) => (
-        <div
+        <button
           key={i}
           className="font-bold hover:scale-110 hover:cursor-pointer transition-all duration-300 bg-white rounded-lg shadow p-6 flex flex-col items-center"
+          onClick={() => window.open(branch.map, "_blank")}
         >
+          {""}
           <Image
             src={branch.image}
             alt="Borular"
@@ -58,7 +60,7 @@ const Subelerimiz = () => (
           >
             {"Konum"}
           </button>
-        </div>
+        </button>
       ))}
     </div>
   </section>

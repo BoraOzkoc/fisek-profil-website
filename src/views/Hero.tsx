@@ -13,21 +13,15 @@ const Hero = () => (
       <div className="absolute inset-0 bg-black opacity-50"></div>
     </div>
     <div className="relative z-10 text-center text-black  p-6">
-      <h1 className="text-5xl md:text-6xl font-bold mb-8 text-white ">
+      <h1 className="text-5xl md:text-8xl font-bold mb-8 text-white p-8">
         Fişek Profil
       </h1>
-      <p className="mb-2 text-lg font-medium text-white">
+      <p className="mb-2 text-2xl font-medium text-white">
         30 Yılı Aşkın Tecrübe ile Profil Demirde Güvenin Adı
       </p>
       <p className="mb-8 text-base text-white">
         Profil demir sektöründe yenilikçi ve güvenilir çözümler sunuyoruz.
       </p>
-      <a
-        href="#subelerimiz"
-        className="bg-white text-gray-900 px-6 py-3 rounded-full font-semibold shadow hover:bg-gray-100"
-      >
-        Şubelerimizi Gör
-      </a>
     </div>
   </section>
 );

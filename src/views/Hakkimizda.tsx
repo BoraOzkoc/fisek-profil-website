@@ -9,7 +9,7 @@ const Hakkimizda = () => (
     <div className="flex flex-col lg:flex-row items-center justify-center min-h-[60vh] gap-8">
       <div className="flex flex-col items-start justify-start p-4 lg:p-12 w-full lg:w-1/2">
         <div className="flex flex-row items-center lg:justify-start justify-center w-full">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl text-black font-extrabold text-center lg:text-left mb-4">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl text-black font-extrabold text-center lg:text-left mb-18">
             Hakkımızda
           </h2>
         </div>

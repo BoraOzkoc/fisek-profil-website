@@ -54,12 +54,9 @@ const Subelerimiz = () => (
           <div className="flex flex-col items-center text-center py-2">
             <p className="text-sm text-gray-500">{branch.address}</p>
           </div>
-          <button
-            className="mt-auto bg-blue-600 text-white px-4 py-2 rounded"
-            onClick={() => window.open(branch.map, "_blank")}
-          >
+          <div className="mt-auto bg-blue-600 text-white px-4 py-2 rounded">
             {"Konum"}
-          </button>
+          </div>
         </button>
       ))}
     </div>

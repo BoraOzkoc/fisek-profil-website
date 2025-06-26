@@ -31,11 +31,11 @@ const branches = [
 
 const Subelerimiz = () => (
   <section id="subelerimiz" className="py-12 bg-gray-50">
-    <h2 className="text-3xl underline text-black font-extrabold text-center mb-8">
+    <h2 className="text-3xl text-black font-extrabold text-center mb-8">
       Şubelerimiz
     </h2>
 
-    <div className="text-black mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
+    <div className="text-black mx-[5vw] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
       {branches.map((branch, i) => (
         <button
           key={i}

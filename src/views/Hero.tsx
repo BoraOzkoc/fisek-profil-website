@@ -12,7 +12,7 @@ const Hero = () => (
       />
       <div className="absolute inset-0 bg-black opacity-50"></div>
     </div>
-    <div className="relative text-center text-black pt-24 md:pt-0 p-6">
+    <div className="relative text-center text-black pt-30 md:pt-0 p-6">
       <h1 className="text-5xl md:text-8xl font-bold mb-8 text-white md:p-8">
         Fişek Profil
       </h1>

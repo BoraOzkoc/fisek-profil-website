@@ -3,7 +3,7 @@ import React from "react";
 
 const Contact = () => (
   <section id="iletisim" className="py-12 bg-gray-50">
-    <h2 className="text-3xl underline font-extrabold text-black text-center mb-8">
+    <h2 className="text-2xl md:text-3xl lg:text-4xl text-black font-extrabold text-center mb-8">
       İletişim
     </h2>
     <div className="max-w-xl mx-auto bg-white rounded-2xl shadow p-8 text-center items-center justify-center">
